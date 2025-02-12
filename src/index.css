@@ -2,34 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+/* ============ Button Fixes ============ */
 .btn {
   background: linear-gradient(
     92.23deg,
-    #4dcfe0 10%,  /* Powder Blue */
-    #3e91b3 50%,  /* Sky Blue */
-    #4682B4 90%   /* Steel Blue */
+    #4dcfe0 10%,  
+    #3e91b3 50%,  
+    #4682B4 90%   
   );
-  box-shadow: 0px 2px 10px rgba(70, 130, 180, 0.3); /* Softer blue glow */
+  box-shadow: 0px 2px 10px rgba(70, 130, 180, 0.3);
+  min-width: 120px; /* Prevent button shrinking */
+  text-align: center;
 }
 
 .btn:hover {
   background: linear-gradient(
     92.23deg,
-    #ffe500 21.43%,  /* Bright Yellow */
-    #e6cc00 50.63%,  /* Slightly Darker Yellow */
-    #ccbb00 100%,    /* Deeper Yellow */
-    #b3a300 117.04%  /* Mustard Yellow */
+    #ffe500 21.43%,  
+    #e6cc00 50.63%,  
+    #ccbb00 100%,    
+    #b3a300 117.04%  
   );
 }
 
+/* Button size fixes */
+.btn-sm {
+  @apply h-[48px] px-6 text-sm min-w-[120px];
+}
+.btn-lg {
+  @apply h-[56px] px-10 text-base min-w-[140px];
+}
 
+/* ============ General Styling Fixes ============ */
 .gradient,
 .active {
   background: linear-gradient(
     92.23deg,
-    #B0E0E6 10%,  /* Powder Blue */
-    #87CEEB 50%,  /* Sky Blue */
-    #489bdf 90%   /* Steel Blue */
+    #B0E0E6 10%,  
+    #87CEEB 50%,  
+    #489bdf 90%   
   );
 }
 
@@ -39,34 +50,47 @@
   border-radius: 100%;
 }
 
-@layer base {
-  body {
-    @apply font-secondary text-lg leading-8 text-white;
-  }
-  .h2 {
-    @apply font-primary text-[32px] mb-6 tracking-[10%] uppercase;
-  }
-  .h3 {
-    @apply font-primary font-semibold text-[26px] mb-6 leading-[46px];
-  }
-  .btn {
-    @apply rounded-full font-primary text-white font-medium;
-  }
-  .btn-sm {
-    @apply h-[48px] px-6 text-sm;
-  }
-  .btn-lg {
-    @apply h-[56px] px-10 text-base;
-  }
-  .btn-link {
-    @apply text-base;
-  }
-  .text-gradient {
-    @apply bg-gradient-to-r text-transparent bg-clip-text from-[#42A6E3] to-[#00FFFF] font-bold font-primary hover:from-[#00FFFF] hover:to-[#42A6E3];
+body {
+  @apply font-secondary text-lg leading-8 text-white;
+  width: 100%;
+  overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
 
-  .section {
-    @apply py-8 lg:py-24 lg:h-screen flex items-center;
+/* Fix container width */
+.container {
+  width: 90%;
+  max-width: 1200px; /* Fixed incorrect 1200rem value */
+  margin: auto;
+}
+
+/* ============ Mobile-Specific Fixes ============ */
+@media (max-width: 768px) {
+  .text-lg {
+    font-size: 0.9rem; /* Adjusted for mobile readability */
+  }
+  .h2 {
+    font-size: 24px;
+  }
+  .h3 {
+    font-size: 20px;
+    line-height: 32px;
+  }
+
+  /* Navbar spacing fix */
+  nav .flex {
+    gap: 10px; /* Adds spacing between icons */
+  }
+
+  /* Fix button and text alignment */
+  .btn {
+    width: 100%; /* Ensure full width on smaller screens */
+    max-width: 200px;
+    display: block;
+    margin: auto;
   }
 }

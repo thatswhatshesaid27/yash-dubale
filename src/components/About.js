@@ -52,7 +52,7 @@ const About = () => {
            
           </div>
           <div className='flex gap-x-8 items-center'>
-              <button className='btn btn-lg'  onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Contact me</button>
+              <button className='btn btn-lg rounded-2xl'  onClick={() => document.getElementById('contact').scrollIntoView({ behavior: 'smooth' })}>Contact me</button>
             
             </div>
         </motion.div>

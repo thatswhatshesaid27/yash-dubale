@@ -20,7 +20,7 @@ const Header = () => {
   <a 
     href="/assets/FinalResume_YashDubale.pdf" 
     download="FinalResume_YashDubale.pdf"
-    className="btn btn-sm mt-3 px-6 py-4 w-auto inline-block"
+    className="btn btn-sm mt-3 px-6 py-4 w-auto inline-block rounded-2xl"
   >
     Resume.pdf
   </a>

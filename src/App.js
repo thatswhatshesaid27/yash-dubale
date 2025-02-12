@@ -10,21 +10,21 @@ import Contact from './components/Contact';
 
 const App = () => {
   return (
-    <div className='bg-site '>
+    <div className='bg-site min-h-screen overflow-x-hidden'>
+      {/* Header */}
       <Header />
       
+      {/* Hero Section */}
       <Banner />
       
+      {/* Navigation */}
       <Nav />
       
+      {/* Sections */}
       <About />
-      
       <Services />
-      
       <Work />
-      
       <Contact />
-      <div className='h-[1000px]'></div>
     </div>
   );
 };

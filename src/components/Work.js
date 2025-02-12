@@ -28,7 +28,7 @@ const Work = () => {
             Node.js), Tailwind CSS, Redux, JavaScript, HTML, CSS, and RESTful
             APIs for dynamic functionality.
           </p>
-          <button className="btn btn-sm mt-6" onClick={() => window.open('https://github.com/thatswhatshesaid27', '_blank')}>View All Projects</button>
+          <button className="btn btn-sm mt-6 rounded-2xl" onClick={() => window.open('https://github.com/thatswhatshesaid27', '_blank')}>View All Projects</button>
         </motion.div>
 
         <motion.div

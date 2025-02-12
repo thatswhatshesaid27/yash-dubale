@@ -80,7 +80,7 @@ const Contact = () => {
               name="message"
               required
             ></textarea>
-            <button type="submit" className="btn btn-lg">
+            <button type="submit" className="btn btn-lg rounded-2xl">
               Send Message
             </button>
           </motion.form>
