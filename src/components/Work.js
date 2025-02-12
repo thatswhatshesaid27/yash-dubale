@@ -6,7 +6,7 @@ import Img2 from "../assets/weather-react.PNG";
 import Img3 from "../assets/foodybash.PNG";
 
 const projects = [
-  { img: Img2, title: "StateWeather", role: "React based application", repo:'https://github.com/thatswhatshesaid27/react-weather' },
+  { img: Img2, title: "StateWeather", role: "React based application", repo:'https://react-weather-nine-woad.vercel.app/' },
   { img: Img3, title: "FoodyBash", role: "Full-Stack Application",repo:'https://github.com/thatswhatshesaid27/FoodyBash' },
   { img: Img1, title: "Mernmory", role: "MERN stack based application" , repo:'https://github.com/thatswhatshesaid27/MERNMORY' },
 ];
