@@ -4,9 +4,12 @@ import { fadeIn } from "../variants";
 import Img1 from "../assets/mernmory.PNG";
 import Img2 from "../assets/weather-react.PNG";
 import Img3 from "../assets/foodybash.PNG";
+import Img4 from "../assets/kbc.PNG"
 
 const projects = [
   { img: Img2, title: "StateWeather", role: "React based application", repo:'https://react-weather-nine-woad.vercel.app/' },
+  { img: Img4, title: "Kyun Nahi Bane Crorepati", role: "React based application", repo:'https://kyun-nahi-bane-crorepati.vercel.app/' },
+
   { img: Img3, title: "FoodyBash", role: "Full-Stack Application",repo:'https://github.com/thatswhatshesaid27/FoodyBash' },
   { img: Img1, title: "Mernmory", role: "MERN stack based application" , repo:'https://github.com/thatswhatshesaid27/MERNMORY' },
 ];
