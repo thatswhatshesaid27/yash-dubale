@@ -23,7 +23,7 @@ const About = () => {
          }} 
         className='flex-1'>
           <h2 className='h2 text-accent'>About me</h2>
-          <h3 className='h3 mb-4'>I'm Web developer with over 2 years of experience</h3>
+          <h3 className='h3 mb-4'>I'm Web developer with over 1 year of experience</h3>
           <p className='mb-6'>
           Versatile web developer skilled in crafting responsive and efficient web applications. Proficient in the MERN stack (MongoDB, Express.js, React, Node.js), with additional experience in Python and embedded coding. Adept at using modern frontend tools like Redux, HTML, CSS, Tailwind CSS, and Vue, as well as backend technologies such as MySQL and SQL. Dedicated to delivering innovative solutions with a focus on clean code and seamless user experiences.
           </p>
