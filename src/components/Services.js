@@ -39,7 +39,7 @@ const Services = () => {
           >
             <h2 className="text-4xl font-bold text-accent">Work Experience</h2>
             <h3 className="text-xl text-gray-400 mt-4 max-w-md">
-            I am a software developer with 2+ years of experience, constantly learning and eager to expand my expertise.
+            I am a Web Developer with 1 year of experience, constantly learning and eager to expand my expertise.
             </h3>
             <button className="btn btn-sm mt-6 rounded-2xl"
              onClick={() => window.open('https://github.com/thatswhatshesaid27', '_blank')}>See My Work</button>
