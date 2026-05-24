@@ -4,16 +4,23 @@ import { fadeIn } from "../variants";
 
 const services = [
   {
-    name: "Software Developer | PNT ROBOTICS",
+    name: "Full-stack Developer Intern | Cubosquare Technologies",
     description:
-      "Skilled in developing software with PyQt and Streamlit, building web apps using React and Vue, and managing databases like MySQL and MongoDB. Experienced in IoT coding for Arduino and sensors.",
-    link: "Aug 2023 - Aug 2024",
+      "Engineered a scalable Tracking Management System by architecting Node.js/TypeScript REST APIs and responsive Next.js frontends, while integrating Payload CMS to transform static architecture into a dynamic ecosystem that cut content update times by 70%.",
+    link: "September 2025 – Present",
+  },
+  
+  {
+    name: "R&D Intern | Techpaathshala",
+    description:
+      "Developed an AI-powered code review agent that accepts a GitHub repo URL and generates structured feedback on code quality and functionality",
+    link: "January 2025 – August 2025",
   },
   {
-    name: "Software Developer | Intern | PNT ROBOTICS",
+    name: "Software Developer | PNT ROBOTICS",
     description:
       "Developed Python-based software systems and Arduino projects, with expertise in the full system development lifecycle, including design, testing, and deployment. Created a chatbot application for a robotic system.",
-    link: "Dec 2022 - Aug 2023",
+    link: "Aug 2023 - Aug 2024",
   },
   {
     name: "Front-end Developer | Intern | Codewind Technologies",
