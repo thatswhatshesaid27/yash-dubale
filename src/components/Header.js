@@ -18,8 +18,8 @@ const Header = () => {
 
   {/* <button className="btn btn-sm mt-4">Work with me</button> */}
   <a 
-    href="/assets/FinalResume_YashDubale.pdf" 
-    download="FinalResume_YashDubale.pdf"
+    href="/assets/updated-resume-2026-may.pdf" 
+    download="updated-resume-2026-may.pdf"
     className="btn btn-sm mt-3 px-6 py-4 w-auto inline-block rounded-2xl"
   >
     Resume.pdf
@@ -29,7 +29,5 @@ const Header = () => {
 
     </header>;
 };
-
-{/* #38b6ff */}
 
 export default Header;
